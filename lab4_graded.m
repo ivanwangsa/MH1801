@@ -29,6 +29,6 @@ B=@(x,y)f(x,y);
 %little arrow twice as long as it is supposed to be otherwise. Without it,
 %some arrows will be too small (of course, now some of them are too big)
 
-quiver(x,y,A(x,y),B(x,y),2,'linewidth',1,'color','blue','linewidth',1)
+quiver(x,y,A(x,y),B(x,y),2,'linewidth',1,'color','blue')
 
 axis([a b c d])
